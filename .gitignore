@@ -1,0 +1,54 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# Production builds
+/build
+/dist/
+
+# Testing
+/coverage
+
+# Environment files
+.env*
+!.env.example
+
+# Secrets
+*.pem
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# Playwright / local verification artifacts
+.playwright-mcp/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Personal source documents
+/Anthony_Anup_Resume_BEST.pdf
