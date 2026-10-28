@@ -158,3 +158,11 @@ textarea,
 select {
   font-family: inherit;
 }
+
+/* Keep Contact close to the project list after the activity block removal. */
+.projects {
+  padding-block-end: 0;
+}
+.contact {
+  padding-block-start: var(--s-lg);
+}

@@ -43,40 +43,34 @@ export function Projects() {
                     );
                   })}
                 </ul>
-                <div className="card__actions">
-                  {project.href && (
-                    <a
-                      className="card__link"
-                      href={project.href}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={`Open ${project.title}`}
-                    >
-                      <span>Open</span>
-                      <IconMarkup html={arrow} />
-                    </a>
-                  )}
-                  {project.repo ? (
-                    <a
-                      className="card__link card__link--muted"
-                      href={project.repo}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={`${project.title} source`}
-                    >
-                      <span>Source</span>
-                      <IconMarkup html={arrow} />
-                    </a>
-                  ) : (
-                    <span
-                      className="card__link card__link--disabled"
-                      aria-disabled="true"
-                    >
-                      <span>Source</span>
-                      <span className="card__link-sub">No public link</span>
-                    </span>
-                  )}
-                </div>
+                {(project.href || project.repo) && (
+                  <div className="card__actions">
+                    {project.href && (
+                      <a
+                        className="card__link"
+                        href={project.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`Open ${project.title}`}
+                      >
+                        <span>Open</span>
+                        <IconMarkup html={arrow} />
+                      </a>
+                    )}
+                    {project.repo && (
+                      <a
+                        className="card__link card__link--muted"
+                        href={project.repo}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${project.title} source`}
+                      >
+                        <span>Source</span>
+                        <IconMarkup html={arrow} />
+                      </a>
+                    )}
+                  </div>
+                )}
               </article>
             </Reveal>
           ))}
