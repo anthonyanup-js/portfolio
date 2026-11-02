@@ -110,7 +110,7 @@ export const skillGroups: SkillGroup[] = [
 
 export const timeline: TimelineEntry[] = [
   {
-    period: "October 2025 — Present",
+    period: "October 2026 — Present",
     role: "Full Stack Developer",
     company: "EJAmerica",
     summary:
@@ -118,7 +118,7 @@ export const timeline: TimelineEntry[] = [
     work: true,
   },
   {
-    period: "February 2025 — May 2025",
+    period: "February 2026 — May 2025",
     role: "Full Stack Developer Intern",
     company: "Gupio, Mysore, India",
     summary:
@@ -126,7 +126,7 @@ export const timeline: TimelineEntry[] = [
     work: true,
   },
   {
-    period: "2022 — 2025",
+    period: "2022 — 2026",
     role: "Bachelor of Engineering",
     company: "ATME College of Engineering, Mysore, Karnataka",
     summary:
