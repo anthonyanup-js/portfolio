@@ -118,7 +118,7 @@ export const timeline: TimelineEntry[] = [
     work: true,
   },
   {
-    period: "February 2026 — May 2025",
+    period: "February 2026 — May 2026",
     role: "Full Stack Developer Intern",
     company: "Gupio, Mysore, India",
     summary:
